@@ -1,0 +1,48 @@
+.banner {
+    position: relative;
+}
+
+@media screen and (min-width:0) {
+    .bannerTitulo {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .bannerTitulo {
+        font-size: 5.0625rem;
+    }
+}
+
+.bannerImages {
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+}
+
+@media screen and (min-width:0) {
+    .bannerImages {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768pc) {
+    .bannerImages {
+        height: calc(100vh - 72px);
+    }
+}
+
+.bannerTitulo {
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    left: 50%;
+    position: absolute;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}

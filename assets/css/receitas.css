@@ -1,0 +1,87 @@
+.receitas {
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .receitas {
+      padding: 5rem 0 0 1rem;  
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .receitas {
+        padding: 5rem 0 0 5rem;
+        
+    }
+}
+
+.receita {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 0) {
+    .receita {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receita {
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receita {
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
+}
+
+.receita__imagem {
+    height: 225px;
+}
+
+.receita__conteudo {
+    padding: 1rem;
+}
+
+.receita__titulo {
+    font-size: 1.4375rem
+}
+
+.receita__descricao {
+    font-size: 1.1875rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.receita__botao {
+    background: #781718;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+    display: inline-block;
+}
+
+.receita__botao:hover {
+    cursor: pointer;
+    background: #302230
+}

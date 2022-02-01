@@ -1,0 +1,53 @@
+.sobre {
+    text-align: center;
+
+}
+
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+
+}
+
+.sobreTitulo {
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+
+}
+
+@media screen and (min-width: 0) {
+    .sobreTitulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobreTitulo {
+        font-size: 3.1875rem;
+    }
+}
+
+.sobreTexto {
+    color: #595959;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 0) {
+    .sobreTexto {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobreTexto {
+        font-size: 1.75rem;
+    }
+}
